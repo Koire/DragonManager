@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "current",
     "start": "pm2 start app.js --name dragonmanager",
     "restart": "pm2 restart dragonmanager",
     "stop": "pm2 stop dragonmanager",
